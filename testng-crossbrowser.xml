@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="DemoQA Cross Browser Suite">
+
+    <test name="Chrome Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testcases.LoginDataDrivenTest"/>
+            <class name="testcases.RegistrationDataDrivenTest"/>
+            <class name="testcases.BookStoreTest"/>
+            <class name="testcases.BookDetailsTest"/>
+            <class name="testcases.BookStoreEndToEndTest"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Tests">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testcases.LoginDataDrivenTest"/>
+            <class name="testcases.RegistrationDataDrivenTest"/>
+            <class name="testcases.BookStoreTest"/>
+            <class name="testcases.BookDetailsTest"/>
+            <class name="testcases.BookStoreEndToEndTest"/>
+        </classes>
+    </test>
+
+</suite>

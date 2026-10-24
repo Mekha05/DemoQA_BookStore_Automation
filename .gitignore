@@ -1,0 +1,13 @@
+target/
+test-output/
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.class
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
